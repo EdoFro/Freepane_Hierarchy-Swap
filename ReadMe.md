@@ -61,8 +61,8 @@ The **fieldsnode** contains the list of the names the user consider describes th
 
 **FieldsNode** has two *attributes* that define how the swap command has to work on that branch
 
-| Attribute |  |
-| --- | --- | --- |
+| Attribute | does |
+| --- | --- |
 | groupBy | defines which node's information is used for recognizing similar nodes (node's text, detail, attribute, ...) |
 | sortBy | defines which node's information is used to sort the nodes |
 
@@ -82,8 +82,8 @@ To do a structured swap you have to
     2. select a node in the baseNode or in the FieldsNode branches
     3. Apply the swap command
 
-- **re-initalization**  
-if you want to change the grouping and / or the sorting criteria, jus select the FieldsNode and apply the initalizeFieldsNode command again
+- **re-initalization**
+   if you want to change the grouping and / or the sorting criteria, just select the FieldsNode and apply the initalizeFieldsNode command again
 
 ## This AddOn is still beta
 
@@ -94,5 +94,3 @@ Please report any bug in this addOn in its GitHub page
 ## Your Help needed
 
 I'm not very good at writing in english, so if you find any error please tell me (and please explain me how to write it correctly)
-
-If something is not clear or not present in this guide please let me know.

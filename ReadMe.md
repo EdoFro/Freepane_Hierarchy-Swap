@@ -12,7 +12,7 @@ More examples and a more detailed explanation in the Freeplane map **"Swap-O-Mat
 
 In the following image you can see an example of an **hierarchical swap**:
 
-![Simple Swap](/simpleSwap.gif)
+![Simple Swap](simpleSwap.gif)
 
 in red you can see that the order changes, but the combination "Mike" and "dogs" allways shows "too noisy"
 
@@ -49,7 +49,7 @@ In those cases you can
 
 Here's an example:
 
-![Structured Swap](/StructuredSwap.gif)
+![Structured Swap](StructuredSwap.gif)
 
 ---
 
@@ -84,6 +84,20 @@ To do a structured swap you have to
 
 - **re-initalization**
    if you want to change the grouping and / or the sorting criteria, just select the FieldsNode and apply the initalizeFieldsNode command again
+
+### some examples:
+
+1. The same branch using an adding formula in the "Hours" attribute:
+
+![branch with formulas in an attribute](SwapExample001.png)
+
+2. Now sorted by the amount in Hours (descending):
+
+![branch sorted by Hours](SwapExample002.png)
+
+3. Now with the formula as node's text and grouped by the node's details:
+
+![branch grouped by details](SwapExample003.png)
 
 ## This AddOn is still beta
 

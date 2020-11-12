@@ -2,9 +2,24 @@
 
 **Swap-O-Matic** is an AddOn for **Freeplane** that helps to easily swap hierarchical levels of nodes in an easy and useful way
 
+You can get the last .addon.mm file for downloading in the [releases](https://github.com/EdoFro/Freepane_Hierarchy-Swap/releases) section.
+
 ---
 
-More examples and a more detailed explanation in the Freeplane map **"Swap-O-Matic guide.mm"**
+More examples and a more detailed explanation in the Freeplane map **"Swap-O-Matic guide.mm"** (it gets installed with the AddOn)
+
+
+---
+
+## TOC
+
+[Simple Swap](#simple-swap)
+
+[Structured Swap](#structured-swap)
+
+[About Freeplane](#about-freeplane)
+
+[About Hierarchy Swapping and other applications](#about-hierarchy-swapping)
 
 ---
 
@@ -108,3 +123,15 @@ Please report any bug in this addOn in its GitHub page
 ## Your Help needed
 
 I'm not very good at writing in english, so if you find any error please tell me (and please explain me how to write it correctly)
+
+## About Freeplane
+
+[Freeplane](https://www.freeplane.org/wiki/index.php/Home) is a free and open source software application that supports thinking, sharing information and getting things done at work, in school and at home. The software can be used for [mind mapping](https://secure.wikimedia.org/wikipedia/en/wiki/Mind_map) and analyzing the information contained in mind maps. Freeplane runs on any operating system that has a current version of Java installed. It can be run locally or [portably](https://en.wikipedia.org/wiki/Portable_application) from removable storage like a USB drive.
+
+## About Hierarchy Swapping
+
+Hierarchy Swapping its not a command that comes as a standard feature in Freeplane, but there are other applications that do this naturally (and a lot other features) that are worthly to know.
+
+One of them is [TreeSheet](http://strlen.com/treesheets/) which is maintained in this [repository](https://github.com/aardappel/treesheets).
+
+Please do yourself a favor and take a look at it. It can give you a different way to help you with your work.

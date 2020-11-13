@@ -13,7 +13,13 @@ if(!fieldsNode){
     groupByClsre = groupCriterio('TEXT')
     sortByClsre = sortCriterio('TEXT')
     def nodos = c.selecteds
-    nodos.each{applySwap(it,'TEXT','TEXT')}
+    nodos.each{
+        if (isSwappable(it)){
+            applySwap(it,'TEXT','TEXT')
+        } else {
+            c.statusInfo = "node $it.text couldn't be swapped"
+        }
+    }
 } else {
     // ui.informationMessage("aplicando swap complejo")
     def baseLevel=fieldsNode.getNodeLevel(true)
@@ -150,6 +156,10 @@ def getFieldsNode2(n, attr){
 
 def getChildPos(n){
     return n.parent.getChildPosition(n)
+}
+
+def isSwappable(n) {
+    !n.leaf && !n.children.any{it.leaf}
 }
 
 // end

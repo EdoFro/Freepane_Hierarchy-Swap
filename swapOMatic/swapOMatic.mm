@@ -1,9 +1,9 @@
 <map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Swap-o-Matic" FOLDED="false" ID="ID_1504294137" CREATED="1604620432707" MODIFIED="1604939853733" LINK="https://github.com/EdoFro/Freepane_Hierarchy-Swap" BACKGROUND_COLOR="#97c7dc" STYLE="oval">
+<node TEXT="Swap-o-Matic" FOLDED="false" ID="ID_1504294137" CREATED="1604620432707" MODIFIED="1605275964727" LINK="https://github.com/EdoFro/Freepane_Hierarchy-Swap" BACKGROUND_COLOR="#97c7dc" STYLE="oval">
 <font SIZE="16" BOLD="true" ITALIC="true"/>
 <hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -66,7 +66,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
 <attribute_layout NAME_WIDTH="112.49999664723883 pt" VALUE_WIDTH="112.49999664723883 pt"/>
 <attribute NAME="name" VALUE="swapOMatic"/>
-<attribute NAME="version" VALUE="v0.0.1"/>
+<attribute NAME="version" VALUE="v0.0.2"/>
 <attribute NAME="author" VALUE="EdoFro"/>
 <attribute NAME="freeplaneVersionFrom" VALUE="v1.5.0"/>
 <attribute NAME="freeplaneVersionTo" VALUE=""/>
@@ -108,7 +108,7 @@
 </html>
 
 </richcontent>
-<node TEXT="description" POSITION="left" ID="ID_641836308" CREATED="1604620484849" MODIFIED="1604939853813">
+<node TEXT="description" POSITION="left" ID="ID_641836308" CREATED="1604620484849" MODIFIED="1605275964728">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="NOTE">
 
@@ -132,7 +132,7 @@
 </richcontent>
 <node TEXT="Swap-O-Matic is an AddOn for Freeplane that helps to easily swap hierarchical levels of nodes in an useful way," ID="ID_1324401936" CREATED="1604620739350" MODIFIED="1604620739350"/>
 </node>
-<node TEXT="changes" POSITION="left" ID="ID_1868659825" CREATED="1604620484857" MODIFIED="1604939853824">
+<node TEXT="changes" POSITION="left" ID="ID_1868659825" CREATED="1604620484857" MODIFIED="1605275964744">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -151,8 +151,13 @@
 <node TEXT="v0.0.1" ID="ID_22086318" CREATED="1604621473220" MODIFIED="1604622257558">
 <node TEXT="first release" ID="ID_1425771330" CREATED="1604621479114" MODIFIED="1604621487911"/>
 </node>
+<node TEXT="v0.0.2" ID="ID_363967693" CREATED="1605271754963" MODIFIED="1605271759856">
+<node TEXT="isSwapable() verification added to SimpleSwap" ID="ID_1474531030" CREATED="1605271761621" MODIFIED="1605275652160"/>
+<node TEXT="changed to menu_bar/edoTools/" ID="ID_920761997" CREATED="1605274800597" MODIFIED="1605274825358"/>
+<node TEXT="added keyboardshortcut to HierarchySwap" ID="ID_657236778" CREATED="1605275595713" MODIFIED="1605275621593"/>
 </node>
-<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_501086586" CREATED="1604620484865" MODIFIED="1604939853833">
+</node>
+<node TEXT="license" FOLDED="true" POSITION="left" ID="ID_501086586" CREATED="1604620484865" MODIFIED="1605275964744">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -176,7 +181,7 @@
 </richcontent>
 <node TEXT="&#xa;This add-on is free software: you can redistribute it and/or modify&#xa;it under the terms of the GNU General Public License as published by&#xa;the Free Software Foundation, either version 2 of the License, or&#xa;(at your option) any later version.&#xa;&#xa;This program is distributed in the hope that it will be useful,&#xa;but WITHOUT ANY WARRANTY; without even the implied warranty of&#xa;MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the&#xa;GNU General Public License for more details.&#xa;" ID="ID_1758052572" CREATED="1604620484873" MODIFIED="1604620484875"/>
 </node>
-<node TEXT="preferences.xml" POSITION="left" ID="ID_872627162" CREATED="1604620484882" MODIFIED="1604939853845">
+<node TEXT="preferences.xml" POSITION="left" ID="ID_872627162" CREATED="1604620484882" MODIFIED="1605275964759">
 <edge COLOR="#ff00ff"/>
 <richcontent TYPE="NOTE">
 
@@ -196,7 +201,7 @@
 
 </richcontent>
 </node>
-<node TEXT="default.properties" POSITION="left" ID="ID_40953705" CREATED="1604620484889" MODIFIED="1604939853855">
+<node TEXT="default.properties" POSITION="left" ID="ID_40953705" CREATED="1604620484889" MODIFIED="1605275964775">
 <edge COLOR="#00ffff"/>
 <richcontent TYPE="NOTE">
 
@@ -221,7 +226,7 @@
 
 </richcontent>
 </node>
-<node TEXT="translations" POSITION="left" ID="ID_33229270" CREATED="1604620484896" MODIFIED="1604939853864">
+<node TEXT="translations" POSITION="left" ID="ID_33229270" CREATED="1604620484896" MODIFIED="1605275964775">
 <edge COLOR="#7c0000"/>
 <richcontent TYPE="NOTE">
 
@@ -248,7 +253,7 @@
 </html>
 
 </richcontent>
-<node TEXT="en" ID="ID_175747664" CREATED="1604620484903" MODIFIED="1604939481002">
+<node TEXT="en" ID="ID_175747664" CREATED="1604620484903" MODIFIED="1605274741813">
 <attribute_layout NAME_WIDTH="172.49999485909953 pt" VALUE_WIDTH="172.49999485909953 pt"/>
 <attribute NAME="addons.${name}" VALUE="Swap-o-Matic"/>
 <attribute NAME="addons.${name}.initializeFieldsNode" VALUE="initialize FieldsNode"/>
@@ -256,7 +261,7 @@
 <attribute NAME="addons.${name}.openHelpMap" VALUE="open Swap-o-Matic guide map"/>
 </node>
 </node>
-<node TEXT="deinstall" POSITION="left" ID="ID_167193696" CREATED="1604620485103" MODIFIED="1604939853880">
+<node TEXT="deinstall" POSITION="left" ID="ID_167193696" CREATED="1604620485103" MODIFIED="1605275964790">
 <edge COLOR="#00007c"/>
 <richcontent TYPE="NOTE">
 
@@ -278,7 +283,7 @@
 <attribute NAME="delete" VALUE="${installationbase}/doc/Swap-O-Matic guide.mm"/>
 <attribute NAME="delete" VALUE="${installationbase}/addons/${name}/scripts/openHelpMap.groovy"/>
 </node>
-<node TEXT="scripts" POSITION="right" ID="ID_289359062" CREATED="1604620485123" MODIFIED="1604939853892">
+<node TEXT="scripts" POSITION="right" ID="ID_289359062" CREATED="1604620485123" MODIFIED="1605275964790">
 <edge COLOR="#007c00"/>
 <richcontent TYPE="NOTE">
 
@@ -399,10 +404,10 @@
 </html>
 
 </richcontent>
-<node TEXT="initializeFieldsNode.groovy" ID="ID_116843327" CREATED="1604621116012" MODIFIED="1604621359303">
+<node TEXT="initializeFieldsNode.groovy" ID="ID_116843327" CREATED="1604621116012" MODIFIED="1605274711200">
 <attribute_layout NAME_WIDTH="202.4999939650299 pt" VALUE_WIDTH="202.4999939650299 pt"/>
 <attribute NAME="menuTitleKey" VALUE="addons.${name}.initializeFieldsNode"/>
-<attribute NAME="menuLocation" VALUE="main_menu_scripting/addons.${name}"/>
+<attribute NAME="menuLocation" VALUE="/menu_bar/edoTools/addons.${name}"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE=""/>
 <attribute NAME="execute_scripts_without_asking" VALUE="true"/>
@@ -411,22 +416,22 @@
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="hierarchySwap.groovy" ID="ID_899243503" CREATED="1604621116019" MODIFIED="1604621369076">
+<node TEXT="hierarchySwap.groovy" ID="ID_899243503" CREATED="1604621116019" MODIFIED="1605275588173">
 <attribute_layout NAME_WIDTH="202.4999939650299 pt" VALUE_WIDTH="202.4999939650299 pt"/>
 <attribute NAME="menuTitleKey" VALUE="addons.${name}.hierarchySwap"/>
-<attribute NAME="menuLocation" VALUE="main_menu_scripting/addons.${name}"/>
+<attribute NAME="menuLocation" VALUE="/menu_bar/edoTools/addons.${name}"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
-<attribute NAME="keyboardShortcut" VALUE=""/>
+<attribute NAME="keyboardShortcut" VALUE="control shift H"/>
 <attribute NAME="execute_scripts_without_asking" VALUE="true"/>
 <attribute NAME="execute_scripts_without_file_restriction" VALUE="true"/>
 <attribute NAME="execute_scripts_without_write_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_exec_restriction" VALUE="false"/>
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
-<node TEXT="openHelpMap.groovy" ID="ID_1629469125" CREATED="1604939233032" MODIFIED="1604939833973">
+<node TEXT="openHelpMap.groovy" ID="ID_1629469125" CREATED="1604939233032" MODIFIED="1605274735600">
 <attribute_layout NAME_WIDTH="202.4999939650299 pt" VALUE_WIDTH="202.4999939650299 pt"/>
 <attribute NAME="menuTitleKey" VALUE="addons.${name}.openHelpMap"/>
-<attribute NAME="menuLocation" VALUE="main_menu_scripting/addons.${name}"/>
+<attribute NAME="menuLocation" VALUE="/menu_bar/edoTools/addons.${name}"/>
 <attribute NAME="executionMode" VALUE="on_single_node"/>
 <attribute NAME="keyboardShortcut" VALUE=""/>
 <attribute NAME="execute_scripts_without_asking" VALUE="true"/>
@@ -436,7 +441,7 @@
 <attribute NAME="execute_scripts_without_network_restriction" VALUE="false"/>
 </node>
 </node>
-<node TEXT="lib" POSITION="right" ID="ID_1626627613" CREATED="1604620485147" MODIFIED="1604939854045">
+<node TEXT="lib" POSITION="right" ID="ID_1626627613" CREATED="1604620485147" MODIFIED="1605275964806">
 <edge COLOR="#7c007c"/>
 <richcontent TYPE="NOTE">
 
@@ -477,7 +482,7 @@
 
 </richcontent>
 </node>
-<node TEXT="zips" POSITION="right" ID="ID_1861235775" CREATED="1604620485155" MODIFIED="1604939854054">
+<node TEXT="zips" POSITION="right" ID="ID_1861235775" CREATED="1604620485155" MODIFIED="1605275964806">
 <edge COLOR="#007c7c"/>
 <richcontent TYPE="NOTE">
 
@@ -519,7 +524,7 @@
 </richcontent>
 <node TEXT="doc" ID="ID_1045523084" CREATED="1381488224452" MODIFIED="1381488224452" LINK="zips/doc/"/>
 </node>
-<node TEXT="images" POSITION="right" ID="ID_711900479" CREATED="1604620485163" MODIFIED="1604939854102">
+<node TEXT="images" POSITION="right" ID="ID_711900479" CREATED="1604620485163" MODIFIED="1605275964822">
 <edge COLOR="#7c7c00"/>
 <richcontent TYPE="NOTE">
 
